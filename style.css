@@ -1,0 +1,103 @@
+
+body{
+    background: linear-gradient(to right,pink,#C6B5C6);
+    
+   }
+   .container {
+       margin-top:30px;
+   }
+   
+   .card {
+       margin-bottom:10px;
+       background-color: white;
+       border-radius: 10px 10px;
+       width: 170px;
+       min-width: 170px;
+       height: 250px;
+       box-shadow: 2px 2px 5px black;
+       margin-top:50px;
+       margin-left:20px;
+       display:inline-flex;
+       
+   }
+   .up-suit{
+       position: absolute;
+       margin-top: 5px;
+       margin-left:10px;
+       font-size: 50px;
+       
+   }
+   .number{
+        position: absolute;
+        margin-top: 70px;
+        margin-left: 60px;
+        font-size: 70px
+   
+   }
+   
+   .down-suit{
+       position: absolute;
+       margin-top: 175px;
+       margin-left:110px;
+       font-size: 50px;
+   }
+   .original{
+       font-family: 'Yusei Magic', sans-serif;
+       color: black;
+       font-size: 30px;
+       margin-left: 20px;
+       
+   }
+   .log{
+       margin-top:50px;
+       margin-left: 5px;
+       font-family: 'Yusei Magic', sans-serif;
+       color: black;
+       font-size: 30px
+       
+   }
+   
+   #input{
+      width: 60px;
+      height: 40px;
+      font-family: 'Yusei Magic', sans-serif;
+      font-size: 20px;
+      border-color:#606682;
+      
+   }
+   .form-control{
+       display:inline;
+   }
+   
+   #Sort{
+       
+       border-radius: 6px;
+       border-color: none;
+       width: 80px;
+       height: 30px;
+       font-family: 'Yusei Magic', sans-serif;
+       font-size: 20px;
+       background-color:#606682;
+   }
+   #Draw{
+       
+       border-radius: 6px;
+       border-color: none;
+       width: 80px;
+       height: 30px;
+       margin-left:100px;
+       background-color:#82607D;
+       font-family: 'Yusei Magic', sans-serif;
+       font-size: 20px;
+       
+   
+   }
+   
+   .cardsitos {
+       display: flex;
+       flex-flow: row wrap;
+   }
+   .btn{
+       padding:0;
+    
+   }
